@@ -3,7 +3,6 @@ panchco_embed
 
 ExpressionEngine 2 Plugin for displaying video player and oEmbed data fields as template tags for a YouTube or Vimeo videos
 
-
 // ----------------------------------------  
 // Usage  
 // ----------------------------------------  
@@ -24,20 +23,35 @@ ExpressionEngine 2 Plugin for displaying video player and oEmbed data fields as 
  {exp:panchco_embed url="http://www.youtube.com/watch?v=qhaxrc2OhJU"}
  
      {type}
+     
      {version}
+     
      {provider_name}
+     
      {title}
+     
      {author_name}
+     
      {html} 
+     
      {width}
+     
      {height}
+     
      {maxwidth}
+     
      {maxheight}
+     
      {duration}
+     
      {description}
+     
      {thumbnail_url}
+     
      {thumbnail_width}
+     
      {thumbnail_height}
+     
      {video_id}
 
  {/exp:panchco_embed}
@@ -51,10 +65,16 @@ ExpressionEngine 2 Plugin for displaying video player and oEmbed data fields as 
  ------------------
  
      url  (required)
+     
      maxwidth
+     
      maxheight
+     
      wmode
+     
      autoplay
+     
      loop
+     
      byline
 				 
