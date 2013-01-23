@@ -26,6 +26,7 @@
         
 		class Panchco_embed {
 			
+				private $provider = FALSE;
 				private	$tagdata;
 				private	$format = 'xml';
 				private	$vimeo_format = 'xml';
