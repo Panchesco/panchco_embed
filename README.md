@@ -16,24 +16,24 @@ ExpressionEngine 2 Plugin for displaying video player and oEmbed data fields as 
 	[Vimeo oEmbed API] (https://developer.vimeo.com/apis/oembed)
 	[YouTube] (http://apiblog.youtube.com/2009/10/oembed-support.html)_
  
-    {exp:panchco_embed url="http://www.youtube.com/watch?v=qhaxrc2OhJU"}
-        {type}
-        {version}
-        {provider_name}
-        {title}
-        {author_name}
-        {html} 
-        {width}
-        {height}
-        {maxwidth}
-        {maxheight}
-        {duration}
-        {description}
-        {thumbnail_url}
-        {thumbnail_width}
-        {thumbnail_height}
-        {video_id}
-    {/exp:panchco_embed}
+        {exp:panchco_embed url="http://www.youtube.com/watch?v=qhaxrc2OhJU"}
+            {type}
+            {version}
+            {provider_name}
+            {title}
+            {author_name}
+            {html} 
+            {width}
+            {height}
+            {maxwidth}
+            {maxheight}
+            {duration}
+            {description}
+            {thumbnail_url}
+            {thumbnail_width}
+            {thumbnail_height}
+            {video_id}
+        {/exp:panchco_embed}
  
 * Use a single, player tag to return just the player 
  
