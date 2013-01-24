@@ -37,7 +37,7 @@ ExpressionEngine 2 Plugin for displaying video player and oEmbed data fields as 
  
 * Use a single, player tag to return just the player 
  
-    {exp:panchco_embed:player url="http://www.youtube.com/watch?v=qhaxrc2OhJU"}
+        {exp:panchco_embed:player url="http://www.youtube.com/watch?v=qhaxrc2OhJU"}
 
 ## Parameters
  
